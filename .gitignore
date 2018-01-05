@@ -1,0 +1,14 @@
+# Ignore everything that's just the basic WordPress install
+*
+
+# Include general stuff in the root of the repo
+!.gitignore
+!.htaccess
+!README.md
+!licence.txt
+
+# Include the custom WordPress theme
+!/wp-content/themes/*
+
+# Include certain customized WordPress plugins
+!/wp-content/plugins/custom
