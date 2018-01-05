@@ -8,7 +8,10 @@
 !licence.txt
 
 # Include the custom WordPress theme
-!/wp-content/themes/*
+!/wp-content/themes/breda-voor-elkaar
+
+# Ignore the secred keys file
+/wp-content/themes/breda-voor-elkaar/keys.php
 
 # Include certain customized WordPress plugins
 !/wp-content/plugins/custom
