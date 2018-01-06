@@ -1,6 +1,6 @@
 <?php
 
-function head_scripts () { ?>
+function head_scripts() { ?>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
     <script>
@@ -23,7 +23,6 @@ function head_scripts () { ?>
     </script>
 <?php }
 
-add_action('wp_head', head_scripts)
+add_action('wp_head', 'head_scripts');
 
 ?>
-
