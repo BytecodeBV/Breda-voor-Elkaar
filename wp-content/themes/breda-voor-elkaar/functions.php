@@ -1,5 +1,7 @@
 <?php
 
+require_once('keys.php');
+
 define( 'DISALLOW_FILE_EDIT', true ); //Disable theme and plugin editors
 add_filter( 'jetpack_development_mode', '__return_true' ); // Sets Jetpack to dev mode
 
