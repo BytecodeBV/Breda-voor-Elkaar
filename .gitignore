@@ -7,14 +7,17 @@
 !README.md
 !licence.txt
 
+# Include certain customized WordPress plugins
+!/wp-content/plugins/custom-plugins-here
+
 # Include the custom WordPress theme
 !/wp-content/themes/breda-voor-elkaar/*
 
 # Ignore the secred keys file
 /wp-content/themes/breda-voor-elkaar/keys.php
 
-# Include certain customized WordPress plugins
-!/wp-content/plugins/custom
+# Ignore node_modules everywhere
+node_modules/
 
 # Ignore general stuff you always ignore
 *.iml
