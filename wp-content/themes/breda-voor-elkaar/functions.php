@@ -3,6 +3,19 @@
 define( 'DISALLOW_FILE_EDIT', true ); //Disable theme and plugin editors
 add_filter( 'jetpack_development_mode', '__return_true' ); // Sets Jetpack to dev mode
 
+//Change logo
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(/wp-content/themes/breda-voor-elkaar/logo.png);
+            width: 320px;
+            background-size: 200px;
+			height: 100px;
+        }
+    </style>
+<?php }
+
 /* =======================================
  * 	JobCareer Functions - Child Theme
  */
