@@ -15,4 +15,8 @@
     to use Gulp for autoprefixing and stuff.
 */
 
-/* If you really like to add css here, add some css here below */
+/* 
+    If you really like to add css here, add some css here below,
+    but to make it work, uncomment the lines in inc/enqueue-scripts.php.
+    Just don't use this file to add css, it'll be a pain in the butt.
+*/
