@@ -1,0 +1,27 @@
+{
+  "name": "Breda-voor-Elkaar",
+  "version": "1.0.0",
+  "description": "Breda voor elkaar child theme JS and SCSS compiling Node app",
+  "main": "app.js",
+  "repository": "https://github.com/NooijenSolutions/Breda-voor-Elkaar",
+  "author": "Luciano Nooijen",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.23.3",
+    "eslint": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-uglify": "^3.0.0"
+  }
+}
