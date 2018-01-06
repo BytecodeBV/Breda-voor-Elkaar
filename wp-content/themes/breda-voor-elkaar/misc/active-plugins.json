@@ -1,0 +1,159 @@
+[
+  {
+    "name": "all-in-one-wp-security-and-firewall",
+    "status": "active",
+    "update": "none",
+    "version": "4.3.1"
+  },
+  {
+    "name": "amazon-web-services",
+    "status": "active",
+    "update": "none",
+    "version": "1.0.4"
+  },
+  {
+    "name": "autoptimize",
+    "status": "active",
+    "update": "none",
+    "version": "2.3.2"
+  },
+  {
+    "name": "backwpup",
+    "status": "active",
+    "update": "none",
+    "version": "3.4.4"
+  },
+  {
+    "name": "broken-link-checker",
+    "status": "active",
+    "update": "none",
+    "version": "1.11.5"
+  },
+  {
+    "name": "contact-form-7",
+    "status": "active",
+    "update": "none",
+    "version": "4.9.2"
+  },
+  {
+    "name": "cs-framework",
+    "status": "active",
+    "update": "none",
+    "version": "1.7"
+  },
+  {
+    "name": "duplicate-post",
+    "status": "active",
+    "update": "none",
+    "version": "3.2.1"
+  },
+  {
+    "name": "elementor",
+    "status": "active",
+    "update": "none",
+    "version": "1.8.12"
+  },
+  {
+    "name": "enable-media-replace",
+    "status": "active",
+    "update": "none",
+    "version": "3.1.1"
+  },
+  {
+    "name": "envato-wordpress-toolkit",
+    "status": "active",
+    "update": "none",
+    "version": "1.7.3"
+  },
+  { "name": "jetpack", "status": "active", "update": "none", "version": "5.7" },
+  {
+    "name": "jobhunt-application-deadline",
+    "status": "active",
+    "update": "none",
+    "version": "1.7"
+  },
+  {
+    "name": "jobhunt-apply-with-facebook",
+    "status": "active",
+    "update": "none",
+    "version": "1.5"
+  },
+  {
+    "name": "jobhunt-email-templates",
+    "status": "active",
+    "update": "none",
+    "version": "1.6"
+  },
+  {
+    "name": "jobhunt-indeed-jobs",
+    "status": "active",
+    "update": "none",
+    "version": "1.7"
+  },
+  {
+    "name": "jobhunt-notifications",
+    "status": "active",
+    "update": "none",
+    "version": "1.7"
+  },
+  {
+    "name": "loco-translate",
+    "status": "active",
+    "update": "none",
+    "version": "2.0.17"
+  },
+  {
+    "name": "query-monitor",
+    "status": "active",
+    "update": "none",
+    "version": "2.17.0"
+  },
+  {
+    "name": "regenerate-thumbnails",
+    "status": "active",
+    "update": "none",
+    "version": "3.0.1"
+  },
+  {
+    "name": "show-current-template",
+    "status": "active",
+    "update": "none",
+    "version": "0.3.0"
+  },
+  {
+    "name": "revslider",
+    "status": "active",
+    "update": "none",
+    "version": "5.4.6.3"
+  },
+  {
+    "name": "woocommerce",
+    "status": "active",
+    "update": "none",
+    "version": "3.2.6"
+  },
+  {
+    "name": "wp-clean-up",
+    "status": "active",
+    "update": "none",
+    "version": "1.2.3"
+  },
+  {
+    "name": "wp-jobhunt",
+    "status": "active",
+    "update": "none",
+    "version": "1.9"
+  },
+  {
+    "name": "amazon-s3-and-cloudfront",
+    "status": "active",
+    "update": "none",
+    "version": "1.2.1"
+  },
+  {
+    "name": "wp-super-cache",
+    "status": "active",
+    "update": "none",
+    "version": "1.5.9"
+  }
+]
