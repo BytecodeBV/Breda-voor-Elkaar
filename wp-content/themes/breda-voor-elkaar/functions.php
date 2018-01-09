@@ -13,3 +13,4 @@ require_once('inc/change-user-roles.php');
 require_once('inc/custom-login-logo.php');
 require_once('inc/enqueue-scripts.php');
 require_once('inc/jobcareer-functions.php');
+require_once('inc/cleanup.php');
