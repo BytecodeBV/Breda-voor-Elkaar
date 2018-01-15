@@ -163,8 +163,9 @@ if ($rightSidebarFlag == true || $leftSidebarFlag == true) {
                             <div class="cs-post-option-panel">
                                 <div class="rich-editor-text">
                                     <?php
-                                    the_content();
-                                    wp_link_pages(array('before' => '<div class="page-links"><span class="page-links-title">' . esc_html__('Pages:', 'jobcareer') . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>'));
+                                    echo $post->post_content;
+                                    //the_content(); This is not working
+                                    // wp_link_pages(array('before' => '<div class="page-links"><span class="page-links-title">' . esc_html__('Pages:', 'jobcareer') . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>'));
                                     ?>
                                 </div>
                             </div>
