@@ -1,13 +1,20 @@
-// Add code here, but please use a good folder structure
+// Fixed blog details
 .cs-blog-detail > .post-option {
     width: 100%;
     margin-bottom: 20px;
     text-align: right;
 }
 
+// Improves the looks of the cookie bar
 #cn-accept-cookie {
     color: white !important;
     background: #1FBDE1 !important;
     border: none !important;
     box-shadow: none !important;
+}
+
+// Changes the form texts to a color that is better readable
+input::placeholder, input:not([type='submit']):not([type='button']),
+textarea::placeholder, textarea {
+    color: #777 !important;
 }
