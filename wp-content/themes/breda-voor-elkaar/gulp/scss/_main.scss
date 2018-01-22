@@ -1,13 +1,34 @@
-// Add code here, but please use a good folder structure
+// Fixed blog details
 .cs-blog-detail > .post-option {
     width: 100%;
     margin-bottom: 20px;
     text-align: right;
 }
 
+// Improves the looks of the cookie bar
 #cn-accept-cookie {
     color: white !important;
     background: #1FBDE1 !important;
     border: none !important;
     box-shadow: none !important;
+}
+
+// Changes the form texts to a color that is better readable
+input::placeholder, input:not([type='submit']):not([type='button']),
+textarea::placeholder, textarea {
+    color: #777 !important;
+}
+
+// Hides pages that should not be accessible
+#candidate_left_job_alerts_link,
+#candidate_left_cv_link,
+#candidate_cv_click_link_id,
+#employer_left_transactions_link,
+#employer_left_resumes_link,
+#employer_left_job_alerts_link,
+#employer_packages_link,
+#employer_postjobs_link,
+#employer_left_packages_link, {
+    display: none !important;
+    border: 0px !important;
 }
