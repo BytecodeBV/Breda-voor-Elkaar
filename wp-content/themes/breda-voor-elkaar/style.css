@@ -20,3 +20,48 @@
     but to make it work, uncomment the lines in inc/enqueue-scripts.php.
     Just don't use this file to add css, it'll be a pain in the butt.
 */
+
+.wp-jobhunt .select-holder select{
+	color: #666 !important;
+}
+
+.second-list-holder{
+	padding-left: 16px;
+}
+
+.employer-header,
+.candidate-header{
+	height: 400px !important;
+}
+
+
+/* Login styling */
+input:not([type=submit]):not([type=button]), textarea, textarea::placeholder {
+    border: 1px solid #ccc;
+}
+
+#wp-submit {
+    background-color: #e30613;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+#user_login, #user_pass, #user_email {
+    border: 1px solid #e4e4e4;
+    height: 50px;
+    padding: 11px;
+
+}
+
+#theme-my-login {
+    margin: 40px auto;
+}
+
+#theme-my-login select {
+	border: 1px solid #e4e4e4;
+    text-indent: 5px;
+    height: 32px !important;
+}
